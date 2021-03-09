@@ -1,0 +1,12 @@
+#devtrixSliderNavigation a img
+{
+	border: none;
+	width: 18px;
+	height: 18px;
+	background: url(../img/bullet.png) no-repeat center center;
+}
+
+#devtrixSliderNavigation a.active img
+{
+	background: url(../img/bullet_active.png) no-repeat center center;
+}

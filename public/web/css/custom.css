@@ -1,0 +1,139 @@
+.h-160{
+    max-height: 160px !important;
+}
+.pt-0{
+    padding-top: 0px !important;
+}
+.logo-red {
+    color: #eb3e37;
+}
+.intro-body:before{
+    background: rgba(0, 0, 0, 0.06);
+}
+.badge.price{
+    width: auto;
+    top: 0;
+    background-color: #eb3e37;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand .logo {
+    max-height: 80px;
+}
+.navbar-custom.top-nav-collapse .navbar-brand .logodark {
+    max-height: 100px;
+    top: -20px;
+    position: relative;
+}
+.top-header{
+    position: absolute;
+    width: 100%;
+}
+.top-header .container {
+	width: auto;
+    padding: 0px 45px;
+}
+.top-header .logo{
+	z-index: 9;
+	position: relative;
+    max-height: 100px;
+}
+.intro.product {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/*.section-small{
+	padding-bottom: 20px;
+}*/
+.owl-carousel .owl-item img{
+    width: auto;
+}
+blockquote:after {
+    content: "";
+    padding-left: 10px;
+}
+blockquote span:after {
+    content: "\f10e";
+    padding-left: 10px;
+    color: #ccc;
+    font-size: 18px;
+    font-family: fontawesome;
+}
+.our-upcoming .panel{
+    background: transparent;
+    border: none;
+}
+.our-upcoming ul {
+    padding: 0;
+}
+.our-upcoming li{
+    list-style: none;
+    padding: 10px 0px;
+    text-align: left;
+}
+.upcoming-img{
+    border-radius: 4%;
+    max-width: 80%;
+    display: inline-block;
+}
+.product-slider img{
+    width: 160px;
+    height: 160px;
+    /*border-radius: 50%;*/
+}
+.b-name{
+    position: absolute;
+    margin: 0px 5px;
+}
+.cat-name{
+    display: inline-block;
+    padding: 0;
+    margin: 0px 5px;
+    top: 30px;
+    position: absolute;
+}
+.brand-img{
+    height: 350px;
+}
+
+.navbar-custom .nav li.active a{
+    color: #eb3e37 !important;
+}
+.navbar-custom.top-nav-collapse{
+    background-color: #316533;
+    border-bottom: none;
+}
+.navbar-custom.top-nav-collapse a{
+    color: #fff;
+    font-weight: 600;
+}
+.dropdown-menu{
+    background-color: rgb(49 101 51);
+}
+.dropdown-menu > li > a{
+    font-size: 13px;
+    color: #fff;
+
+}
+.navbar-nav .dropdown-menu > li > a{
+    font-weight: 600;
+}
+.navbar-custom a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+.intro.slider_container.mobile{
+    
+}
+
+@media (max-width: 768px){
+    .top-header .logo{
+        width: 30%;
+    }
+    .top-header .logo.float-right{
+        width: 100%;
+    }
+}
